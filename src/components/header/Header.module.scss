@@ -1,0 +1,26 @@
+nav{
+  border-bottom: solid 1px;
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.linkHome{
+  font-size: 1.25rem;
+  padding: 10px 20px;
+  color: #000;
+  font-weight: 500;
+}
+.linkvoluntario{
+  font-size: 1.25rem;
+  color: #fff;
+  padding: 15px 30px;
+  background-color: #00745A;
+  border-radius: 10px;
+}
