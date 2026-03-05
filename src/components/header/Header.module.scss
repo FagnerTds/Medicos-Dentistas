@@ -45,14 +45,15 @@ header {
     background: none;
     border: none;
     cursor: pointer;
+    color: #000;
   }
-}
-.menuMobile {
+
+  .menuMobile {
   position: fixed;
-  top: 50px;
+  top: 12vh;
   right: 20px;
   background: white;
-  z-index: -1;
+  z-index: 10;
 
   display: flex;
   flex-direction: column;
@@ -65,3 +66,5 @@ header {
     padding: 5px;
   }
 }
+}
+
